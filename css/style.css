@@ -1,0 +1,430 @@
+@font-face {
+    font-family: ExtraMedium;
+    src: url('../Fontes/Montserrat-Medium.ttf'); 
+}
+
+@font-face {
+    font-family: ExtraRegular;
+    src: url('../Fontes/Montserrat-Regular.ttf');
+    
+}
+
+@font-face {
+    font-family: ExtraBold;
+    src: url('../Fontes/Montserrat-Bold.ttf');
+    
+}
+
+h1{
+    font-family: ExtraMedium;
+    width: 50%;
+}
+
+h2{
+    font-family: ExtraMedium;
+    font-weight: bolder;
+    color: #336699;
+    font-size:  1.6em;
+}
+
+h3{
+    font-family: ExtraMedium;
+}
+
+h4{
+    font-family: ExtraMedium;
+    font-size: 1.2em;
+}
+
+h5{
+    font-family: ExtraMedium;
+    color: #666666;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.nav-color{
+    background-color: white;
+}
+.nav-link{
+    font-family: ExtraRegular;
+    color: #666666 !important;
+    font-size: 13px;
+}
+.size-img-logo{
+    width: 150px;
+}
+
+.margin-li{
+    margin: 0 10px;
+}
+
+.center-itens-ul{
+    margin:0 auto;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragrafo-tela-principal{
+    font-family: ExtraMedium;
+    font-size:  1.5em !important;
+}
+
+.agente-consultoria-gratruita{
+    background-color: #8dc63f;
+    border: none;
+    color: white !important;
+    padding: 0px 25px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.box-descricao{
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.topico-vantagens{
+    width: 3em;
+    font-family: ExtraMedium;
+    font-weight: bolder;
+    color: #336699;
+    border-bottom: 3px solid #66ccff;
+    
+}
+
+.tela-principal-p{
+    font-family: ExtraMedium;
+    color: #666666;
+    font-size: 13px;
+    margin-left: 1px;
+}
+
+.border{
+    height: 5em;
+    margin: auto 0;
+    position: relative;
+    top: 15px;
+}
+
+@media only screen and (max-width: 768px ){
+    .border{
+        width: 6em;
+        margin: auto 0;
+        height: 1px;
+        top:0px;
+    }
+
+}
+
+/***************************************************************************************************/
+                                    /*Css Tela vantagens*/
+
+.tela-vantagens{
+    background-color: #f5f5f5;
+}
+
+.img-vantagens{
+    margin-top: 7em;
+    max-width: 100%;
+}
+.titulo-tela-vantagens{
+    max-width: 100%;
+    width: 46em;
+    margin: 0 auto;
+}
+
+/***************************************************************************************************/
+                                    /*Css Tela agencia*/
+
+.tela-agencia{
+    padding-top: 3em;
+    padding-bottom: 9.5rem !important;
+}
+
+.box-titulo-tela-agencia{
+    max-width: 100%;
+    width: 40em;
+    margin: 0 auto;
+}
+
+.img-agencia{
+   max-width: 100%;
+}
+
+.cards-agencia{
+    position: relative;
+    top:-8em;
+    align-items: center;
+    justify-content: center;
+}
+.card-tamanho{
+    height: 190px;
+    padding: 25px;
+    -webkit-box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-text{
+    font-family: ExtraRegular;
+    color:#0291ff;
+    font-size: 13px;
+}
+
+.img-card{
+    width: 70px;
+}
+
+/***************************************************************************************************/
+                                    /*Css Tela crianaças*/
+.tela-criancas{
+    height: 100%;
+    background-image: url('../img/criancaFeliz.png');
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.texto-boas-vindas{
+    font-family: ExtraRegular;
+    color:#666666;
+    font-size:13px;
+}
+
+.container-descricao-criancas{
+    width: 40%;
+    position: relative;
+    top: 12em;
+    left: 50%;
+}
+
+@media only screen and (max-width: 1267px ){
+    .container-descricao-criancas{
+        width: 40%;
+        position: relative;
+        top: 12em;
+        left: 55%;
+       
+    }
+
+    .tela-criancas{
+        height: 100%;
+        background-size: cover;
+        background-position: -100px 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 992px ){
+    .container-descricao-criancas{
+        width: 40%;
+        position: relative;
+        top: 12em;
+        left: 55%;
+       
+    }
+
+    .tela-criancas{
+        height: 100%;
+        background-size: cover;
+        background-position: -200px 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px ){
+    .container-descricao-criancas{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        
+       
+    }
+    
+    .tela-criancas{
+        background: #f5f5f5;
+        height: 50%;
+    }
+    
+}
+/***************************************************************************************************/
+                                    /*Css Tela Cases*/
+.tela-cases{
+    background: #f5f5f5;
+}
+
+
+.center-card-cases{
+    justify-content: center;
+}
+.cases-descriacao{
+    margin: 0 auto;
+    width: 67%;
+    font-family: ExtraRegular;
+    color:#666666;
+    font-size: 13px;
+}
+
+.cases-card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 190px;
+    width: 209px;
+    margin: 10px 10px;
+    border-radius: 6px;
+    text-align: center;
+    -webkit-box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-fotter{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 250px;
+    text-align: center;
+}
+
+.img-card-fotter{
+    width: 60%;
+}
+
+/***************************************************************************************************/
+                                        /*Css Tela Contato*/
+
+.center-contato{
+    justify-content: center;
+}
+
+.contato span{
+    font-family: ExtraBold;
+    color: #3399ff;
+    font-size: 0.9em;
+}
+
+.contato p{
+    font-family: ExtraMedium;
+    color:#666666;
+    font-size: 9px;
+    margin: 0px !important;
+}
+
+.contato p:nth-child(4){
+    margin-top: 5px !important;
+    font-size: 8px;
+}
+
+.contato-bloco{
+    margin-left: 2em;
+    position: relative;
+    top: 25%;
+}
+
+.border-contato{
+    height: 5em;
+    margin: auto 0;
+    position: relative;
+    top: 0px;
+}
+
+@media only screen and (max-width: 768px ){
+    .border-contato{
+        width: 1px;
+        margin: auto 0;
+        top:0px;
+    }
+
+}
+
+@media only screen and (max-width: 456px ){
+    .border-contato{
+        display: none;
+    }
+
+}
+
+/***************************************************************************************************/
+                                    /*Css Tela Contato*/
+.fechar-modal{
+    float: right;
+    margin: 10px 20px 0px 0px;
+}
+.image-modal{
+    width: 100%;
+}   
+
+.consultoria{
+    position: relative;
+    max-width: 45% !important;
+    top: 2em;
+    left: 4em;
+}
+
+.consultoria h2{
+    font-size: 2em;
+}
+
+.consultoria p{
+    font-family: ExtraRegular;
+    font-size: 1em;
+    color:#696969;
+}
+
+.modal-agendar{
+    float: right;
+    font-family: ExtraRegular;
+    font-size: 1.1em;
+    height: 28px;
+    width: 60%;
+}
+
+
+
+/***************************************************************************************************/
+                                        /*Css arquivo obrigado.html*/
+
+.fundo{
+    background-color: #f5f5f5;
+}
+
+.img-obrigado{
+    width: 70%;
+}
+
+.titulo-obrigado h2{
+    margin: 0;
+    font-family:ExtraMedium;
+    color: #666666;
+    font-size: 1.6em;
+}
+.contato-bloco-obrigado span{
+    font-family: ExtraBold;
+    color: #3399ff;
+    font-size:15px;
+}
+
+.contato-bloco-obrigado p:nth-child(2){
+    font-family: ExtraBold;
+}
+.contato-bloco-obrigado p:nth-child(3){
+    font-family: ExtraBold;
+}
+
+.contato-bloco-obrigado p{
+    font-family: ExtraMedium;
+    color: #666666;
+    font-size: 9px;
+    margin: 0px !important;
+}
